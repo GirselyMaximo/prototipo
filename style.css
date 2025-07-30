@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0a49b7;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a49b7, #001f5c);
+}
+
+.container {
+  max-width: 400px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  background: #0a49b7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.button:hover {
+  background: #083a91;
+}
+
+.section {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.disciplinas {
+  text-align: left;
+}
+
+.barra {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.barra span {
+  display: block;
+  height: 100%;
+  background: #0a49b7;
+  text-align: right;
+  color: white;
+  padding-right: 5px;
+}

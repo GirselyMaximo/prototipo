@@ -1,0 +1,17 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajuda</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="ajuda.js"></script>
+</head>
+<body>
+  <div class="container section">
+    <p id="saudacao">Olá, Pedro</p>
+    <div id="chat" style="text-align: left; margin-top: 20px;"></div>
+    <input class="input" id="pergunta" placeholder="Posso te ajudar?" onkeypress="if(event.key==='Enter'){responder()}" />
+    <button class="button" onclick="responder()">Enviar</button>
+  </div>
+</body>
+</html>
